@@ -1,0 +1,11 @@
+﻿{
+  "name": "andy-ballard-website",
+  "private": true,
+  "scripts": {
+    "build": "quarto render",
+    "preview": "quarto preview"
+  },
+  "dependencies": {
+    "@quarto/netlify-plugin-quarto": "^0.0.5"
+  }
+}

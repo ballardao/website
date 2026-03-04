@@ -1,0 +1,18 @@
+---
+title: ""
+title-block-banner: "#782F40"
+---
+
+::: {.grid}
+::: {.g-col-12 .g-col-sm-4}
+<img src="/files/profiles/andy-ballard-headshot.jpg" class="img-fluid" alt="Andy Ballard headshot" />
+:::
+
+::: {.g-col-12 .g-col-sm-8}
+I’m Andy Ballard. I am an Associate Professor in the [Department of Political Science](https://coss.fsu.edu/polisci/) at [Florida State University](https://www.fsu.edu/).
+
+I study legislative institutions, political parties, and the interplay between legislators and the public in the United States. Some of the over-arching questions I’m working to answer are: Why do minority parties have influence over legislation? How can we build better models of legislative negotiation? How do party goals drive legislative behavior? Why are some legislators and citizens more willing to compromise politically? What are the causes and consequences of polarizing and uncivil rhetoric from legislators? Papers on these topics have been published in the *American Political Science Review*, *The Journal of Politics*, *Legislative Studies Quarterly*, and more. I wrote a book, [Dealmakers](https://global.oup.com/academic/product/dealmakers-9780197801390), which came out with Oxford University Press in 2025 and am finalizing a contract on my second book with University of Chicago Press in spring 2026.
+
+You can find descriptions of some current projects [here](/research/). My [CV](/cv/) has links to all my publications, and to working papers where available.
+:::
+:::

@@ -1,0 +1,20 @@
+# R stuff
+.Rproj.user
+.Rhistory
+.RData
+.Ruserdata
+
+# Quarto stuff
+/.quarto/
+_site/
+**/*_cache/*
+
+# Miscellaneous stuff
+design-assets/*
+static/etc/*
+.DS_Store
+node_modules/
+
+/.luarc.json
+
+**/*.quarto_ipynb

@@ -1,0 +1,59 @@
+project:
+  type: website
+
+  render:
+    - "index.qmd"
+    - "cv/index.qmd"
+    - "research/index.qmd"
+    - "teaching/index.qmd"
+
+  resources:
+    - "files/profiles/andy-ballard-headshot.jpg"
+    - "files/favicon-globe.svg"
+    - "files/icons/*.svg"
+
+website:
+  title: "Andrew McWilliams Ojala Ballard"
+  description: "Andrew Ballard is an Associate Professor in the Department of Political Science at Florida State University."
+  site-url: "https://www.andrewoballard.com"
+  favicon: "/files/favicon-globe.svg"
+  search: false
+
+  navbar:
+    pinned: true
+    left:
+      - text: "Home"
+        href: "index.qmd"
+      - text: "CV"
+        href: "cv/index.qmd"
+      - text: "Research"
+        href: "research/index.qmd"
+      - text: "Teaching"
+        href: "teaching/index.qmd"
+    right:
+      - text: "<img src='/files/icons/x.svg' class='social-icon' alt='X'>"
+        href: "https://twitter.com/andrewoballard"
+      - text: "<img src='/files/icons/github.svg' class='social-icon' alt='GitHub'>"
+        href: "https://github.com/ballardao"
+      - text: "<img src='/files/icons/bluesky.svg' class='social-icon' alt='Bluesky'>"
+        href: "https://bsky.app/profile/andrewballard.bsky.social"
+      - text: "<img src='/files/icons/googlescholar.svg' class='social-icon' alt='Google Scholar'>"
+        href: "https://scholar.google.com/citations?user=9UFWykcAAAAJ&hl=en"
+
+  page-footer:
+    left: |
+      <span class="faux-block">© 2026 Andy Ballard</span>
+      <span class="faux-block">All content licensed under <a href="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons CC BY-SA 4.0</a></span>
+    right: |
+      <span class="faux-block">Made with <a href="https://quarto.org/">Quarto</a></span>
+      <span class="faux-block"><a href="https://github.com/ballardao/website">View source on GitHub</a></span>
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    grid:
+      body-width: 900px
+    toc: false
+    code-link: false
+    anchor-sections: true
